@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dab5e42b75d96f4d8e7aec100d5c53a, type: 3}
+  m_Name: Ship_Cruiser
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  displayName: "\u041A\u0440\u0435\u0439\u0441\u0435\u0440"
+  visualPrefab: {fileID: 2175582197927720520, guid: fa1ee6283c0235f469eb5d32767064ca, type: 3}
+  maxHP: 800
+  speed: 75
+  turnSpeed: 55
+  weapons:
+  - {fileID: 11400000, guid: 5209d7f72eed0024eb2ea47a0200bc57, type: 2}
+  - {fileID: 11400000, guid: a5b31c88f3883a44f8f59cad01c933fa, type: 2}
